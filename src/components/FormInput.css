@@ -1,0 +1,31 @@
+.form__input {
+  margin-bottom: 0.5rem;
+  padding: 0.3rem;
+  border-color: #999999;
+  border-radius: 0.3rem;
+  border-width: 1px;
+  border-style: solid;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.form__input:focus {
+  outline-color: #040403;
+}
+
+.form__input:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.form__input--flex-grow {
+  flex-grow: 1;
+}
+
+@media (max-width: 430px) {
+  .form__input:not(:last-child) {
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,12 @@
+.form {
+  padding: 1rem;
+  width: auto;
+  max-width: 50rem;
+  height: auto;
+  text-align: center;
+  border: black 2px solid;
+}
+
+.form__title {
+  margin-top: 0.5rem;
+}

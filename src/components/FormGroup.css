@@ -1,0 +1,9 @@
+.form__group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form__group:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
